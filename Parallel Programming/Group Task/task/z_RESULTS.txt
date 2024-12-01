@@ -1,0 +1,21 @@
+// Testing params
+- 1 node for serial, 9 nodes for parallel blocking and nonblocking
+- stopping criteria: (error < 1.0e-20) or (iteration >= 150000)
+
+// SERIAL
+1. 1144s
+2. 984s
+3. 1084s
+~ 1070.66s
+
+// BLOCKING
+1. 205s
+2. 184s
+3. 188s
+~ 192.33s
+
+// NON_BLOCKING
+1. 194s
+2. 186s
+3. 188s
+~ 189.33s (- 1.55%)

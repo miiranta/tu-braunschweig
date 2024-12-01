@@ -1,0 +1,14 @@
+// SERIAL
+cd task
+mpic++ main_serial.cpp -o exec/out_serial
+mpirun -np 1 ./exec/out_serial
+
+// BLOCKING
+cd task
+mpic++ main_mpi_blocking.cpp -o exec/out_blocking
+mpirun -np 9 ./exec/out_blocking
+
+// NON_BLOCKING
+cd task
+mpic++ main_mpi_non_blocking.cpp -o exec/out_nonblocking
+mpirun -np 9 ./exec/out_nonblocking
