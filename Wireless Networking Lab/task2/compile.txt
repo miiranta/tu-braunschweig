@@ -1,0 +1,14 @@
+//NODE 1
+
+usb-IBR_Black_Magic_Probe_IBR_Node_ibr_v0.5_BEE661A9-if00
+usb-IBR_Black_Magic_Probe_IBR_Node_ibr_v0.5_BEE661A9-if02
+
+make BOARD=ibr-node flash term PORT=/dev/serial/by-id/usb-IBR_Black_Magic_Probe_IBR_Node_ibr_v0.5_BEE661A9-if00 SERIAL=BEE661A9
+make BOARD=ibr-node flash term PORT=/dev/serial/by-id/usb-IBR_Black_Magic_Probe_IBR_Node_ibr_v0.5_BEE661A9-if02 SERIAL=BEE661A9
+
+//NODE 2
+
+
+//ETC
+sudo chmod a+rw /dev/ttyACM0
+sudo chmod a+rw /dev/ttyACM1
