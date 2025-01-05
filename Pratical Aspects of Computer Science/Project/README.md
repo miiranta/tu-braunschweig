@@ -3,8 +3,6 @@
 
 STAR(t)
 
-[See project page](https://luvas.io/portfolio/start)
-
 ---
 
 **Compile and Run (Linux)**
