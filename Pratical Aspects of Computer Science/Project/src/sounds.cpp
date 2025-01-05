@@ -72,8 +72,8 @@ void playSound(string name, Game_Instance &game)
 
     else if(name == "grass")
     {
-        std::thread sound_thread(soundThread, name, "../assets/sounds/grass.ogg", std::ref(game));
-        sound_thread.detach();
+        //std::thread sound_thread(soundThread, name, "../assets/sounds/grass.ogg", std::ref(game));
+        //sound_thread.detach();
     }
 
     else if(name == "star")

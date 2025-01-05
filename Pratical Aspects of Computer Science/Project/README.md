@@ -3,9 +3,11 @@
 
 STAR(t)
 
+[See project page](https://luvas.io/portfolio/start)
+
 ---
 
-**Compile and Run**
+**Compile and Run (Linux)**
 
 `sudo apt-get install libsfml-dev`
 
@@ -32,6 +34,7 @@ STAR(t)
 ---
 
 **Mechanics**
+
 *Player:*
 
 - Life bar

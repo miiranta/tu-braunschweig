@@ -9,9 +9,9 @@
 #include <SFML/System.hpp>
 #include <SFML/Audio.hpp>
 
-#include "aux/AVL/avl.cpp"                      //This is an AVL tree implementation
-#include "aux/LinkedList/list.cpp"              //This is a Linked List implementation
-#include "aux/OpenSimplex/OpenSimplexNoise.cpp" //https://github.com/deerel/OpenSimplexNoise - Free software
+#include "auxx/AVL/avl.cpp"                      //This is an AVL tree implementation
+#include "auxx/LinkedList/list.cpp"              //This is a Linked List implementation
+#include "auxx/OpenSimplex/OpenSimplexNoise.cpp" //https://github.com/deerel/OpenSimplexNoise - Free software
 
 // ---------------------------------------------
 
